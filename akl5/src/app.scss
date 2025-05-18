@@ -1,0 +1,19 @@
+// import for font - Manrope
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Manrope:wght@200..800&family=Parkinsans:wght@300..800&display=swap');
+
+:root {
+    /* colors */
+    --tomato: #F55951; 
+     --white: #FFFDF5;
+    font-family: 'Manrope', sans-serif;
+
+    background-color: var(--tomato);
+    color: var(--white); 
+}
+
+.toggle-theme-button { 
+    background: transparent;
+    border:none;
+    cursor: pointer;
+    color: var(--white);
+}
