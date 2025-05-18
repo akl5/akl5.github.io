@@ -35,8 +35,6 @@
             <Icon src={BsMoon}/>
         {/if}
     </button>
-    <p>darkMode: {darkMode ? 'true' : 'false'}</p>
-
 </div>
 
 {@render children()}
